@@ -16,7 +16,7 @@ for i in numbers:  # 1 не простое и не составное число
     if is_prime:
         primes.append(i)  # Если флаг числа = истина, то добавляем число в список простых чисел
     else:
-        not_primes.append(i)  # Иначе, добавляем число в списое не простых чисел
+        not_primes.append(i)  # Иначе, добавляем число в список не простых чисел
 
 print("Primes:", primes)
 print("Not Primes:", not_primes)
